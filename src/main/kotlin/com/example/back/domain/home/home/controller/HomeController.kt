@@ -13,6 +13,6 @@ class HomeController {
     @GetMapping
     fun home(): String {
         //application-secret의 custom.secretValue 가져오기
-        return "Hello~, $secretValue"
+        return "Hello~~, $secretValue"
     }
 }
