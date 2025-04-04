@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: back
+  config:
+    import: "application-secret.yml"
+
+server:
+  port: 8021
